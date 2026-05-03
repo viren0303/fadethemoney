@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+.env*.local
+.vercel
+*.log
+
+# Local dev data — production reads from Vercel Blob
+data/store.json
+data/sbd-samples/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode
